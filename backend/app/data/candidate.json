@@ -1,0 +1,403 @@
+{
+  "profile": {
+    "name": "Durgesh Kale",
+    "professional_title": "Computer Science Undergraduate",
+    "location": {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "contact": {
+      "email": "kaledurgesh62@gmail.com"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/durgesh-kale2009",
+      "github": "https://github.com/Durgeshkale",
+      "portfolio": null
+    },
+    "graduation_year": 2027,
+    "current_status": "Computer Science undergraduate"
+  },
+
+  "professional_summary": {
+    "short": "Computer Science undergraduate graduating in 2027 with strong foundations in data structures, algorithms, operating systems, Python, C++, machine learning, and backend development.",
+    "detailed": "Computer Science undergraduate with strong foundations in data structures, algorithms, operating systems, computer networks, and system design. Has hands-on experience with Python and C++, applied machine learning using PyTorch, scikit-learn and OpenCV, and backend development using Python frameworks and databases. Has solved 180+ problems on LeetCode and has experience building end-to-end technical projects and working under hackathon and project constraints.",
+    "current_focus": [
+      "Data Structures and Algorithms",
+      "Backend Development",
+      "Python",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision",
+      "System Design"
+    ]
+  },
+
+  "education": [
+    {
+      "institution": "Government College of Engineering, Nagpur",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science and Engineering",
+      "location": "Nagpur, Maharashtra, India",
+      "start_date": "2023",
+      "expected_graduation": "2027",
+      "cgpa": 7.71,
+      "scale": 10,
+      "status": "Currently pursuing",
+      "coursework": [
+        "Artificial Intelligence",
+        "Data Structures and Algorithms",
+        "Object-Oriented Programming",
+        "Operating Systems",
+        "Computer Networks",
+        "System Design",
+        "Complexity Analysis",
+        "Applied Mathematics"
+      ]
+    }
+  ],
+
+  "skills": {
+    "programming_languages": [
+      {
+        "name": "Python",
+        "level": "Strong",
+        "primary_use": [
+          "Backend Development",
+          "Machine Learning",
+          "Artificial Intelligence",
+          "Computer Vision"
+        ]
+      },
+      {
+        "name": "C++",
+        "level": "Strong",
+        "primary_use": [
+          "Data Structures and Algorithms",
+          "Problem Solving"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermediate",
+        "primary_use": [
+          "Basic frontend development",
+          "Web development fundamentals"
+        ]
+      },
+      {
+        "name": "Java",
+        "level": "Intermediate",
+        "primary_use": [
+          "Object-Oriented Programming"
+        ]
+      },
+      {
+        "name": "SQL",
+        "level": "Working knowledge",
+        "primary_use": [
+          "Database queries",
+          "Backend development"
+        ]
+      },
+      {
+        "name": "HTML",
+        "level": "Basic"
+      },
+      {
+        "name": "CSS",
+        "level": "Basic"
+      }
+    ],
+
+    "core_computer_science": [
+      "Data Structures and Algorithms",
+      "Object-Oriented Programming",
+      "Operating Systems",
+      "Computer Networks",
+      "System Design",
+      "Complexity Analysis",
+      "Linux Administration"
+    ],
+
+    "backend_development": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [
+        "FastAPI",
+        "Flask",
+        "Node.js",
+        "Express"
+      ],
+      "concepts": [
+        "REST APIs",
+        "API Development",
+        "Backend Architecture",
+        "Request/Response Handling",
+        "Authentication",
+        "Database Integration"
+      ]
+    },
+
+    "databases": [
+      "SQL",
+      "MySQL",
+      "NoSQL",
+      "Supabase"
+    ],
+
+    "machine_learning_and_ai": [
+      "PyTorch",
+      "Scikit-learn",
+      "OpenCV",
+      "Pandas",
+      "NumPy",
+      "YOLOv8",
+      "Hugging Face Spaces"
+    ],
+
+    "frontend_basics": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+
+    "developer_tools": [
+      "Git",
+      "Docker",
+      "Linux"
+    ]
+  },
+
+  "data_structures_and_algorithms": {
+    "leetcode_problems_solved": 180,
+    "statement": "Solved 180+ algorithmic problems on LeetCode.",
+    "primary_language": "C++",
+    "focus_areas": [
+      "Data Structures",
+      "Algorithms",
+      "Complexity Analysis",
+      "Problem Solving"
+    ],
+    "leetcode_profile": null
+  },
+
+  "projects": [
+    {
+      "name": "AI-Powered Aerial Surveillance System",
+      "category": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Computer Vision",
+        "Object Detection"
+      ],
+      "status": "Completed",
+      "technologies": [
+        "Python",
+        "YOLOv8",
+        "PyTorch",
+        "OpenCV",
+        "Hugging Face Spaces"
+      ],
+      "dataset": {
+        "name": "VisDrone2019-DET",
+        "images": 10209,
+        "annotated_bounding_boxes": "2.6M+"
+      },
+      "description": "A real-time aerial object-detection system designed for identifying potential threats from aerial imagery.",
+      "problem_statement": "Aerial surveillance systems need to reliably detect objects from drone imagery despite challenging environmental and sensor conditions.",
+      "key_features": [
+        "Real-time object detection",
+        "Aerial threat identification",
+        "Image enhancement",
+        "Sensor-noise reduction",
+        "Public deployment for testing"
+      ],
+      "technical_implementation": [
+        "Built an object-detection pipeline using YOLOv8.",
+        "Used PyTorch for the machine learning pipeline.",
+        "Used OpenCV for image processing and image enhancement.",
+        "Designed an image-enhancement pipeline to reduce sensor noise.",
+        "Deployed the application on Hugging Face Spaces."
+      ],
+      "results": {
+        "map_at_50": "68.21%",
+        "precision": "78.65%",
+        "recall": "60.34%"
+      },
+      "deployment": {
+        "platform": "Hugging Face Spaces",
+        "url": null
+      },
+      "repository": null,
+      "role": "Developer",
+      "team_size": null,
+      "challenges": [
+        "Handling aerial imagery",
+        "Reducing sensor noise",
+        "Maintaining inference reliability under variable environmental conditions"
+      ],
+      "future_improvements": []
+    },
+
+    {
+      "name": "Surajya — Decentralized Governance Platform",
+      "category": [
+        "Hackathon",
+        "Software Development"
+      ],
+      "status": "Completed",
+      "technologies": [],
+      "description": "A governance platform developed during Hack-ON Hackathon.",
+      "team": {
+        "size": 2,
+        "role": "Co-builder"
+      },
+      "achievement": {
+        "competition": "Hack-ON Hackathon",
+        "rank": 4,
+        "total_teams": "150+",
+        "date": "February 2026"
+      },
+      "repository": null,
+      "demo": null,
+      "future_improvements": []
+    }
+  ],
+
+  "experience": [
+    {
+      "organization": "Google Developer Groups on Campus (GDGC), GCOEN",
+      "role": "Marketing Associate",
+      "location": "Nagpur, India",
+      "start_date": "August 2024",
+      "end_date": "June 2025",
+      "organization_size": "30+ members",
+      "team_leadership": {
+        "subteam_size": 7,
+        "led_subteam": true
+      },
+      "responsibilities": [
+        "Led a 7-member marketing subteam.",
+        "Drove outreach and promotion across 10+ technology events.",
+        "Worked on hackathons, sponsor seminars and alumni webinars.",
+        "Represented GDGC in sponsorship meetings.",
+        "Helped secure sponsor support for club-run events.",
+        "Co-organized Hack-ON hackathon.",
+        "Handled planning and on-ground coordination."
+      ],
+      "skills_demonstrated": [
+        "Leadership",
+        "Team Management",
+        "Communication",
+        "Event Management",
+        "Marketing",
+        "Sponsorship",
+        "Coordination",
+        "Public Relations"
+      ]
+    }
+  ],
+
+  "achievements": [
+    {
+      "title": "Hack-ON Hackathon",
+      "achievement": "Placed 4th among 150+ teams",
+      "project": "Surajya",
+      "date": "February 2026"
+    },
+    {
+      "title": "LeetCode",
+      "achievement": "Solved 180+ algorithmic problems",
+      "category": "Data Structures and Algorithms"
+    },
+    {
+      "title": "Hackathon Development",
+      "achievement": "Built functional end-to-end prototypes under compressed development timelines"
+    }
+  ],
+
+  "hackathons": [
+    {
+      "name": "Hack-ON Hackathon",
+      "date": "February 2026",
+      "result": "4th place",
+      "participating_teams": "150+",
+      "project": "Surajya",
+      "team_size": 2
+    }
+  ],
+
+  "positions_of_responsibility": [
+    {
+      "organization": "Google Developer Groups on Campus (GDGC), GCOEN",
+      "position": "Marketing Associate",
+      "leadership_scope": "Led a 7-member marketing subteam"
+    }
+  ],
+
+  "certifications": [],
+
+  "career_goals": {
+    "current_target_roles": [
+      "Software Engineer",
+      "Backend Engineer",
+      "AI Engineer",
+      "Machine Learning Engineer"
+    ],
+    "primary_direction": "Backend and AI/ML",
+    "preferred_domains": [
+      "Software Engineering",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Backend Engineering"
+    ],
+    "long_term_goals": [],
+    "preferred_work_environment": [],
+    "companies_of_interest": [],
+    "higher_studies_goals": []
+  },
+
+  "professional_strengths": [
+    "Problem solving",
+    "Data structures and algorithms",
+    "Python development",
+    "Machine learning",
+    "Computer vision",
+    "Backend development",
+    "Technical project development",
+    "Leadership",
+    "Team collaboration",
+    "Working under time constraints"
+  ],
+
+  "areas_of_expertise": [
+    "Data Structures and Algorithms",
+    "Python",
+    "C++",
+    "Machine Learning",
+    "Computer Vision",
+    "Backend Development",
+    "Artificial Intelligence",
+    "System Design"
+  ],
+
+  "interests": [],
+
+  "learning": {
+    "currently_learning": [],
+    "completed_learning": [],
+    "future_learning": []
+  },
+
+  "portfolio": {
+    "personal_website": null,
+    "github": "https://github.com/Durgeshkale",
+    "linkedin": "https://linkedin.com/in/durgesh-kale2009",
+    "project_links": {
+      "aerial_surveillance": null,
+      "surajya": null
+    }
+  }
+}
