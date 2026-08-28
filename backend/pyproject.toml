@@ -13,3 +13,9 @@ dependencies = [
     "python-dotenv>=1.2.3",
     "uvicorn>=0.52.4",
 ]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "httpx2>=2.12.0",
+]

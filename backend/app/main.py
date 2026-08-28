@@ -1,27 +1,19 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 
-from app.ai.llm import generate_response
-
-
-app = FastAPI(title="DurgeshAI")
+from app.api.chat import router as chat_router
 
 
-class ChatRequest(BaseModel):
-    message: str
+app = FastAPI(
+    title="DurgeshAI",
+    description="AI-powered portfolio assistant for Durgesh Kale.",
+    version="1.0.0",
+)
+
+app.include_router(chat_router)
 
 
 @app.get("/")
 def root():
     return {
-        "message": "DKPortfolioAI backend is running"
-    }
-
-
-@app.post("/chat")
-def chat(request: ChatRequest):
-    response = generate_response(request.message)
-
-    return {
-        "response": response
+        "message": "DurgeshAI backend is running"
     }
